@@ -1,0 +1,152 @@
+.service-container{
+ 
+    background-image: url('../img/service.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.service-items{
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+   
+}
+.service-title{
+    margin: 40px 0px;
+}
+.service-title h2 {
+    text-align: center;
+   
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-size: 1.2em;
+}
+/* .service-title h2::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    width: 50px;
+    height: 2px;
+    background: #fff;
+}
+.service-title h2::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    width: 50px;
+    height: 2px;
+    background: #fff;
+} */
+
+.service-title h2 strong{
+    font-size: 1.2em;
+}
+.services{
+    
+   position: relative;
+   
+}
+.service-icon i{
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
+    left: 50px
+    
+}
+.service-content{
+    
+    width: 320px;
+    
+   
+}
+.service-content h2{
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+    padding: 0px 20px;
+    font-size: 1.1em;
+    margin-left: 90px;
+}
+.service-content h2 strong{
+    font-size: 1em;
+    margin: 0px auto;
+ }
+.service-content p{
+    /* margin: 20px auto; */
+    margin: 10px 10px  20px  90px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    line-height: 1.5em;
+    font-size: 0.8em;
+    padding: 0px 20px;
+    text-align: justify;
+}
+
+/*-------------------------- media-------------------------- */
+@media (min-width: 576px) { 
+
+    .service-content {
+        
+        width: 400px;
+    }
+
+ }
+
+
+@media (min-width: 768px) { 
+
+    .service-content {
+       
+        width: 380px;
+    }
+.service-content p{
+    width: 270px;
+}
+.service-title h2::after{
+    left: 150px;
+}
+.service-title h2::before{
+   
+    right: 150px;
+    }
+
+
+}
+
+@media (min-width: 992px) { 
+
+    .service-content p{
+
+        width: 370px;
+    }
+    .service-title h2::after{
+   
+        left: 270px;
+       
+    }
+    .service-title h2::before{
+       
+        right:270px;
+       
+       }
+
+    }
+
+
+@media (min-width: 1200px) { 
+    .service-title h2::after{
+   
+        left: 350px;
+       
+    }
+    .service-title h2::before{
+       
+        right: 350px;
+    }
+ }
