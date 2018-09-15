@@ -6,7 +6,7 @@
     background: url('../img/galery/carrusel3.jpg');
     background-size: cover;
     background-attachment: fixed;
-    height: 300px;
+    height: 100px;
 }
 #carousel_inner {
     float: left;
