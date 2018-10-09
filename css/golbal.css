@@ -27,15 +27,15 @@ body::-webkit-scrollbar-thumb{
     background: #fff;
     color: #303030;
     cursor: pointer;
-    bottom: 20px;
-    right: 20px;
+    bottom: 40px;
+    /* right: 20px; */
     width: 40px;
     height: 40px;
     line-height: 40px;
     z-index: 1;
     font-size: 2em;
     text-align: center;
-    border:  2px solid #303030;
+    border: 2px solid #303030;
 }
 
 
